@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="DjfheHttpClientUpdate" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="./../../../unpacked/md/md.xsd">
+  <cues>
+    <cue name="DjfheHttpClientUpdateCue" checkinterval="50ms" instantiate="true">
+      <actions>
+        <raise_lua_event name="'djfhe.http.client.update'" />
+      </actions>
+    </cue>
+  </cues>
+
+</mdscript>

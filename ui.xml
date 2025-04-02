@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon name="djfhe_http" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../unpacked/ui/core/addon.xsd">
+  <environment type="menus">
+    <file name="./lua/init.lua" />
+  </environment>
+</addon>
