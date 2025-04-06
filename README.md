@@ -2,15 +2,10 @@
 
 ## This library is still work in progress
 
-This is a simple http client library for the Game X4 Foundation.
-It utilizes luasocket and luasec under the hood.
+This is a simple http/https client library for the Game X4 Foundation utilizing luasocket and luasec. 
 Since these libraries are synchronous, this library provides a non-blocking polling based interface to make simple http requests.
 
 ## Example usage:
-
-#### Disclaimer:
-Sending req
-
 Sending a Get request:
 ```lua
   local Request = require("djfhe.http.request")
