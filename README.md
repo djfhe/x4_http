@@ -6,6 +6,10 @@ This is a simple http/https client library for the Game X4 Foundation utilizing 
 Since these libraries are synchronous, this library provides a non-blocking callback based interface to make simple http requests.
 Open requests will be polled every 50ms checking for new content and callback gets called as soon as the request finishes.
 
+Protected UI needs to be disabled, since external .dll files (for luasocket and luasec) are loaded.
+
+Guides & Doc how to compile these for X4's lua lib will follow as soon as i have some free time again.
+
 ## Example usage:
 Sending a Get request:
 ```lua
