@@ -3,7 +3,8 @@
 ## This library is still work in progress
 
 This is a simple http/https client library for the Game X4 Foundation utilizing luasocket and luasec. 
-Since these libraries are synchronous, this library provides a non-blocking polling based interface to make simple http requests.
+Since these libraries are synchronous, this library provides a non-blocking callback based interface to make simple http requests.
+Open requests will be polled every 50ms checking for new content and callback gets called as soon as the request finishes.
 
 ## Example usage:
 Sending a Get request:
