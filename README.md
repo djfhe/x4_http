@@ -8,7 +8,7 @@ Open requests will be polled every 50ms checking for new content and callback ge
 
 Protected UI needs to be disabled, since external .dll files (for luasocket and luasec) are loaded.
 
-Guides & Doc how to compile these for X4's lua lib will follow as soon as i have some free time again.
+Guides & Doc how to compile these for X4's lua lib yourself will follow as soon as i have some free time again.
 
 ## Example usage:
 Sending a Get request:
